@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('../public/magiczoom.css');
+
+@font-face {
+  font-family: 'Orpheus Pro';
+  src: url('../public/fonts/OrpheusPro-Medium.eot');
+  src: url('../public/fonts/OrpheusPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../public/fonts/OrpheusPro-Medium.woff2') format('woff2'),
+      url('../public/fonts/OrpheusPro-Medium.woff') format('woff'),
+      url('../public/fonts/OrpheusPro-Medium.ttf') format('truetype'),
+      url('../public/fonts/OrpheusPro-Medium.svg#OrpheusPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Calibri';
+  src: url('../public/fonts/Calibri.woff2') format('woff2'),
+      url('../public/fonts/Calibri.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@layer components {
+  .cusColor {
+    @apply text-[#56112A];
+  }
+}
+@layer components {
+.carousel {
+  display: inline-flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.custom-width{max-width:100rem !important;}
+.custom-h-720{max-height:720px;}
+.move-left:hover .arrow-left{right:-10px;}
+.arrow-left-viewed{right:-30px;}
+.move-left:hover .arrow-left-viewed{right:-40px;}
+.full_Height{height: calc(100vh - 64px) !important;}
+}
+
+@layer base {
+  body {
+    @apply font-[calibri] ;
+  }}
+
+  .swiper-scrollbar-drag{
+    background: #56112A !important;
+  }
+  /* width */
+  .pasminascroll::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+  -webkit-overflow-scrolling: touch;
+  }
+
+
+/* Track */
+::-moz-scrollbar-track {
+  border-radius: 0;
+  background: #FFFFFF;
+}
+.pasminascroll::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #FFFFFF;
+}
+.pasminascroll.dark::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #e5e5e5;
+}
+
+/* Handle */
+
+::-moz-scrollbar-thumb {
+  background: #56112A;
+  border-radius: 0;
+  border: 0px solid #56112A;
+}
+.pasminascroll::-webkit-scrollbar-thumb {
+  background: #56112A;
+  border-radius: 0;
+  border: 0px solid #56112A;
+}
+::-moz-scrollbar-thumb:hover {
+  background: #56112A;
+}
+
+/* Handle on hover */
+.pasminascroll::-webkit-scrollbar-thumb:hover {
+  background: #56112A;
+}
+.tab-rounded {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+.bottom-box{bottom: -83%;}
+.top-box{top:-400px;}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+
+  display: none;
+}
+.swiper-button-next{
+  background-image: url("../public/images/arrow4.png");
+background-repeat:no-repeat;
+background-position:center;
+background-size:100% auto;
+width: calc(var(--swiper-navigation-size)/ 45 * 30)!important;
+}
+.swiper-button-prev{
+  background-image: url("../public/images/arrow3.png");
+  background-repeat:no-repeat;
+background-position:40%;
+background-size:100% auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 48% !important;
+}
+
+#sliderControl > .swiper-button-next,#sliderControl > .swiper-button-prev {
+  top: 35% !important;
+}
+#blogSlide >.swiper-button-next, #blogSlide >.swiper-button-prev {
+  top: 38% !important;
+}
+@media (max-width: 1024px) {
+  #blogSlide >.swiper-button-next, #blogSlide >.swiper-button-prev {
+    top: 32% !important;
+  }
+  #sliderControl > .swiper-button-next,#sliderControl > .swiper-button-prev {
+    top: 36% !important;
+  }
+}
+@media (max-width: 640px) {
+  #blogSlide >.swiper-button-next, #blogSlide >.swiper-button-prev {
+    top: 35% !important;
+  }
+  #sliderControl > .swiper-button-next,#sliderControl > .swiper-button-prev {
+    top: 33% !important;
+  }
+}
+.swiper-pagination {
+  display: none;
+}
+.swiper-horizontal>.swiper-scrollbar {
+  left: 0% !important;
+  width:100% !important;
+}
+swiper-scrollbar-drag {
+  width: 100% !important;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 0!important;
+  cursor: auto;
+  pointer-events: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.yellow-boder{ outline-color:#B8906C ;}
+
+.most_viewed_swiper .swiper-scrollbar {
+  width: 90% !important;
+  margin: 0 5%;
+}
+/* hover in artisans */
+.hoverEvent:hover .hoverEvent-content {
+  opacity: 1;
+}
+.textcus {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
