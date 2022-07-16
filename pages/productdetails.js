@@ -27,19 +27,19 @@ const product = {
     {
       id: 1,
       name: 'Angled view',
-      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/products/107/images/351/dustpan1.1655319514.386.513.jpg?c=1&_gl=1*uxt0mb*_ga*Njk0ODY5MzQwLjE2NTc5NjA5NjI.*_ga_WS2VZYPC6G*MTY1Nzk2MDk2Mi4xLjEuMTY1Nzk2MDk4Ny4zNQ..&_ga=2.3557424.1688231029.1657960962-694869340.1657960962',
+      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/images/stencil/1280x1280/products/111/378/riverside-blue-cashmere-wrap1__14260.1657961544.jpg?c=1',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 2,
       name: 'Angled view',
-      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/products/107/images/351/dustpan1.1655319514.386.513.jpg?c=1&_gl=1*uxt0mb*_ga*Njk0ODY5MzQwLjE2NTc5NjA5NjI.*_ga_WS2VZYPC6G*MTY1Nzk2MDk2Mi4xLjEuMTY1Nzk2MDk4Ny4zNQ..&_ga=2.3557424.1688231029.1657960962-694869340.1657960962',
+      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/images/stencil/640w/products/111/377/riverside-blue-cashmere-wrap3__70173.1657961544.jpg?c=1',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 3,
       name: 'Angled view',
-      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/products/107/images/351/dustpan1.1655319514.386.513.jpg?c=1&_gl=1*uxt0mb*_ga*Njk0ODY5MzQwLjE2NTc5NjA5NjI.*_ga_WS2VZYPC6G*MTY1Nzk2MDk2Mi4xLjEuMTY1Nzk2MDk4Ny4zNQ..&_ga=2.3557424.1688231029.1657960962-694869340.1657960962',
+      src: 'https://cdn11.bigcommerce.com/s-3b0p5yrro3/images/stencil/1280x1280/products/111/376/riverside-blue-cashmere-wrap5__67202.1657961544.jpg?c=1',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
   ],
