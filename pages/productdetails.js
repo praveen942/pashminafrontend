@@ -27,19 +27,19 @@ const product = {
     {
       id: 1,
       name: 'Angled view',
-      src: '/images/product/riverside-blue-cashmere-wrap1.webp',
+      src: '/images/product/1.webp',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 2,
       name: 'Angled view',
-      src: '/images/product/riverside-blue-cashmere-wrap3.webp',
+      src: '/images/product/2.webp',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 3,
       name: 'Angled view',
-      src: '/images/product/riverside-blue-cashmere-wrap5.webp',
+      src: '/images/product/3.webp',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
   ],
